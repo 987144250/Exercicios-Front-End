@@ -13,7 +13,7 @@ function loadsystem() {
         
     } else {
         var fsex = document.getElementsByName('opção')
-        var idade = ano - Number(nasc.value)
+        var idade = ano - Number(nasc.value) // Usa-se Number(nasc.value) ao inves de apenas nasc pois se usar aapenas nasc aparecerá "NAN"
         var genero = ''
         if (fsex[0].checked) { // Se o primeiro marcador for selecionado (0 , homem)
             genero = 'Homem'
