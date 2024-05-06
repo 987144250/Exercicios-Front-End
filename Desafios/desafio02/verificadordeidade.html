@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    
+    <!-- Chamando o css externo -->
+    <link rel="stylesheet" href="estidad01.css"> 
+
+</head>
+<body>
+
+    <header>
+
+        <h1>Verificador de Idade</h1>
+
+    </header>
+
+    <section id="janela">
+
+        <div id="nasc">
+            <p>Ano de Nascimento: <input type="number" name="box" id="box"> </p>
+
+        <p>Sexo:
+            
+            <input type="radio" name="opção" id="masc" value="M">  <!-- ambos inputs de radio devem ter o mesmo 'name' para que nao     marque 2 ao mesmo tempo -->
+            <label for="masc">Masculino</label>
+            <input type="radio" name="opção" id="fem" value="F">
+            <label for="fem">Feminino</label>
+        </p>
+
+            <p>
+                <input type="button" value="Verificar" onclick="loadsystem()" id="very">
+            </p>
+        </div>
+
+        <div id="msg">
+            Preencha os dados acima para obter resultados!
+        </div>
+
+        <div id="img">  
+
+            <!-- ou cria no JS: img.setAttribute('id', 'image') -->
+            
+            <img id="image" src="" alt="">  <!-- a variavel img foi atribuido a esse id de imagem e nao na id da div em si 'img' -->
+        </div>
+
+    </section>
+
+    <footer>
+       <p>&copy; Dedechavoso</p>
+    </footer>
+
+    <!-- Chamando o JS externo -->
+    <script src="script.js">
+    
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora do dia</title>
+    
+    <!-- Chamando o css externo -->
+    <link rel="stylesheet" href="estilo.css"> 
+
+</head>
+<body onload="carregar()"> <!-- Ordenando que execute a função 'carregar' quando abrir site -->
+    <header>
+        <h1>Hora do dia</h1>  <!-- Sessão header para Títulos e tudo que está acima -->
+    </header>
+
+    <section>
+        <div id="msg">  <!-- A section é o conteúdo, onde terão as divs,porem nesse caso nao importa
+                         pois tudo aqui foi substituido pelo conteudo da função 'carregar'-->
+            Hora
+        </div>
+
+        <div id="foto">
+            <img id="imagem" src="manha.png" alt="Foto do dia"> <!-- se a função der erro, essa imagem padrão irá surgir -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Dedechavoso</p> <!-- Em footer colocamos conteudos no fim da pagina -->
+    </footer>
+
+    <!-- Chamando o JS externo -->
+    <script src="script.js">
+    
+    </script>
+</body>
+</html>

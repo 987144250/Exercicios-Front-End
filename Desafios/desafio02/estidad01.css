@@ -1,0 +1,45 @@
+body {
+    background: rgb(12, 127, 184); /* Cor do fundo da pagina */
+}
+
+header {            /* Cor,alinhamento e fonte de tudo escrito em header */
+    color: white;
+    text-align: center;
+    font: normal 8pt Arial;
+}
+
+#janela {           /* Dados e caraceteristicas da janela branca dentro do site */
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 400px;
+    height: 140px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(3, 3, 3, 0.715);
+
+}
+
+#janela.alta {      /* Informações sobre condição especifica para alterar a altura da janela branca */
+    height: 400px;
+}
+
+div {               /* Posicionamento em tudo que se chame apenas 'div' */
+    text-align: left;
+    margin-top: 10px;
+}
+
+div#msg {           /* Alinhamento de mensagem específica 'msg' */
+    text-align: center;
+}
+
+div#img {           /* Alinhamento de imagem */
+    text-align: center;
+    
+    
+}
+
+footer { /* Cor,Fonte e Alinhamento de Frase de rodapé */
+   color: white;
+   text-align: center;
+   font-style: italic;
+}
